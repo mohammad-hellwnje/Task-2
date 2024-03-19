@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* start nav */
+.nav_section {
+    width: 100%;
+    background-color: rgb(244, 67, 54);
+    position: fixed;
+    box-shadow:  0px 0px 5px 0px;
+}
+.nav_section ul {
+    display: flex;
+}
+.nav_section ul li {
+    padding: 15px 35px;
+    list-style: none;
+}
+.nav_section ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav_section .active {
+    background-color: white;
+}
+.nav_section .active a {
+    color: black;
+}
+/* end nav */
+/* stert hero section */
+.hero {
+    background-color:rgb(244, 67, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.hero h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+.hero p {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+.hero p a {
+    color: white;
+    text-decoration: none;
+}
+.hero button {
+    margin: 15px 20px 70px 20px;
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+/* end hero section */
+/* start flex1 section */
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.lorem1 {
+     width: 600px; 
+      margin: 10px;
+}
+.lorem1 h2 {
+    margin: 20px;
+    font-size: 25px;
+}
+.lorem1 p {
+    margin: 20px;
+    line-height: 25px;
+}
+.lorem1 .active {
+    color: #777777;
+    margin-top: 30px;
+}
+.lorem2{
+    margin: 10px;
+}
+.lorem2 img {
+    width: 180px;
+    margin: 10px;
+}
+/* end flex1 section */
+/* start flex2 section */
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+.mug1 {
+    margin: 10px;
+}
+.mug1 img {
+    width: 180px;
+    margin: 10px; 
+}
+.mug2 {
+    width: 600px; 
+    margin: 10px;
+}
+.mug2 h2 {
+    margin: 20px;
+    font-size: 25px;
+}
+.mug2 p {
+    margin: 20px;
+    line-height: 25px;
+}
+.mug2 .active {
+    color: #777777;
+    margin-top: 30px;
+}
+/* end flex2 section */
+/* start end section */
+.end {
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.end p {
+    margin: 55px 15px ;
+    color: white;
+}
+/* End end section */
+/* start footer section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.icon {
+    margin: 50px 0 20px 0;
+}
+.icon i {
+    color: rgb(101, 101, 101);
+    padding: 2px;
+}
+.footer p {
+    color: rgb(101, 101, 182);
+    font-size: 14px;
+    margin: 10px 0 50px 0;
+}
+.footer p a {
+    color: rgb(101, 101, 182);
+}
+/* end footer section */
